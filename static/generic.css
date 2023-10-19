@@ -1,0 +1,66 @@
+html {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.dark-mode {
+    background-color: #212121;
+    color: white;
+}
+
+#text1 {
+    color:white;
+    text-align: center;
+}
+
+
+#sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 300px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color:#CE8147; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+
+}
+
+ion-icons {
+    font-size: 40px;
+}
+
+#buttondeez {
+    background: none;
+    border: 0;
+    font-size: 40px;
+    
+}
+
+#settings {
+    position: absolute;
+    bottom: 10px;
+}
+
+#navlinks {
+    width: 120px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    top:5%;
+    
+}
+
+#navtext {
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+}
