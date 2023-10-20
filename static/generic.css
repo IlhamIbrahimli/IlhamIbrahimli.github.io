@@ -67,18 +67,18 @@ ion-icons {
 
 #main {
     height: 100%;
-    width: calc(100vw-300px);
+    width: auto;
     left:300px;
     margin: 0 auto;
-    position: relative;
+    position: absolute;
 }
 
 .container {
     width: 500px;
     height: 300px;
-    margin-left: -375px;
-    left:50%;
+    left: calc(50% + 250px);
+    
     background-color: blue;
     position: relative;
-    display: block;
+
 }
