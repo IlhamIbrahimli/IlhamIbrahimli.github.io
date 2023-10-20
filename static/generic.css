@@ -74,10 +74,10 @@ ion-icons {
 }
 
 .container {
-    width: 500px;
+    width: 700px;
     height: 300px;
-    left: calc(50% + 250px);
-    
+    left: calc(50% + 50px);
+    text-align: center;
     background-color: blue;
     position: relative;
 
