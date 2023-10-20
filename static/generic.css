@@ -73,10 +73,12 @@ ion-icons {
     position: relative;
 }
 
-#container {
+.container {
     width: 500px;
-    margin: -250px 0 0 -250px;
+    height: 300px;
+    margin-left: -375px;
     left:50%;
     background-color: blue;
-    position: absolute;
+    position: relative;
+    display: block;
 }
