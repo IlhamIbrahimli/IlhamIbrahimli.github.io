@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./static/generic.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="sidebar">
+
+       
+        <img src="./static/TempPFP.png" align="middle" width="256" height="256" />
+        <h1 id="text1">ILHAM IBRAHIMLI</h1>
+        <div id="navlinks">
+            <a id="navtext" href="./index.html">Home</a>
+            <br>
+            <a id="navtext" href="./about.html">About me</a>
+            <br>
+            <a id="navtext" href="./exp.html">Expirience</a>
+            <br>
+            <a id="navtext" href="./edu.html">Education</a>
+            <br>
+            <a id="navtext" href="./contact.html">Contact Me</a>
+            <br>
+        </div>
+        <div id="settings">
+            <button id="buttondeez" onclick="ToggleMode()"><ion-icon name="contrast"></ion-icon></button>
+        </div>
+    </div>
+    <script>
+       function ToggleMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>
