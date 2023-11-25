@@ -12,7 +12,9 @@ body {
     background-color: #212121;
     color: white;
 }
-
+.spacer-dark-mode {
+    background-color: white;
+}
 #text1 {
     color:white;
     text-align: center;
@@ -34,6 +36,10 @@ body {
 
 ion-icons {
     font-size: 40px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 #buttondeez {
@@ -54,7 +60,7 @@ ion-icons {
     margin: 0 auto;
     padding: 10px;
     position: relative;
-    top:5%;
+    top:2%;
     
 }
 
@@ -62,7 +68,7 @@ ion-icons {
     text-decoration: none;
     color:white;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #main {
@@ -75,11 +81,53 @@ ion-icons {
 
 .container {
     width: 700px;
-    height: 300px;
+    height: 200px;
     left: calc(50% + 50px);
+    position: relative;
+    border: grey solid 1px;
+    border-radius: 5px;
+    
+}
+
+.spacer {
+    width: 2px;
+    height: 30px;
+    left: calc(50% + 400px);
     text-align: center;
-    background-color: white;
-    border: darkgray solid 3px;
+    background-color: grey;
     position: relative;
 
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.biggermargin {
+    margin-top: 0;
+}
+
+#first {
+    margin-top: 50%;
+}
+#last {
+    margin-bottom: 100px;
+}
+
+
+.tit-logo {
+    font-size: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.tit {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#pfp {
+    margin-top: 200px;
 }
