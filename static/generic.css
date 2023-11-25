@@ -60,7 +60,7 @@ ion-icons {
     margin: 0 auto;
     padding: 10px;
     position: relative;
-    top:5%;
+    top:2%;
     
 }
 
@@ -68,7 +68,7 @@ ion-icons {
     text-decoration: none;
     color:white;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #main {
@@ -126,4 +126,8 @@ ion-icons {
 .tit {
     display: inline-block;
     vertical-align: middle;
+}
+
+#pfp {
+    margin-top: 200px;
 }
