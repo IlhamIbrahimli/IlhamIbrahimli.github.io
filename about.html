@@ -49,16 +49,16 @@
         </div>
     </div>
     <script>
-        var colour = "d"
+        
         function ToggleMode() {
             var element = document.body;
             element.classList.toggle("dark-mode");
-            if(colour == "l") {
+            if(sessionStorage.getItem("colour") == "l") {
                 document.getElementById("github-logo").src = "./static/github-mark.png";
-                colour = "d";
+                sessionStorage.setItem("colour","d");
             }else {
                 document.getElementById("github-logo").src = "./static/github-mark-white.png";
-                colour = "l";
+                sessionStorage.setItem("colour","l");
             }
         }
     </script>

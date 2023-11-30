@@ -71,27 +71,27 @@
         
     </div>
     <script>
-        var currMode = "d";
+        sessionStorage.setItem("colour","d");
         function ToggleMode() {
             
             var element = document.body;
             element.classList.toggle("dark-mode");
             
             
-            if(currMode == "l") {
+            if(sessionStorage.getItem("colour") == "l") {
                 document.getElementById("Img1").src = "./static/unreal.png";
                 document.getElementById("Img2").src = "./static/python.png";
                 document.getElementById("Img3").src = "./static/python.png";
                 document.getElementById("Img4").src = "./static/python.png";
                 document.getElementById("Img5").src = "./static/python.png";
-                currMode="d"
+                sessionStorage.setItem("colour","d");
             }else {
                 document.getElementById("Img1").src = "./static/unreal-light.png";
                 document.getElementById("Img2").src = "./static/python-light.png";
                 document.getElementById("Img3").src = "./static/python-light.png";
                 document.getElementById("Img4").src = "./static/python-light.png";
                 document.getElementById("Img5").src = "./static/python-light.png";
-                currMode = "l";
+                sessionStorage.setItem("colour","l");
             }
         }
     </script>

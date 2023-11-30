@@ -46,25 +46,25 @@
             I do not work much in HTML anymore but the core skills i learnt helped me create this website so I am happy I took the time to learn it. </p></div>
     </div>
     <script>
-        var currMode = "d";
+
         function ToggleMode() {
             
             var element = document.body;
             element.classList.toggle("dark-mode");
             
             
-            if(currMode == "l") {
+            if(sessionStorage.getItem("colour") == "l") {
                 document.getElementById("Img1").src = "./static/python.png";
                 document.getElementById("Img2").src = "./static/unity.png";
                 document.getElementById("Img3").src = "./static/unreal.png";
                 document.getElementById("Img4").src = "./static/html5.png";
-                currMode="d"
+                sessionStorage.setItem("colour","d");
             }else {
                 document.getElementById("Img1").src = "./static/python-light.png";
                 document.getElementById("Img2").src = "./static/unity-light.png";
                 document.getElementById("Img3").src = "./static/unreal-light.png";
                 document.getElementById("Img4").src = "./static/html5-light.png";
-                currMode = "l";
+                sessionStorage.setItem("colour","l");
             }
         }
     </script>
