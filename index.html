@@ -24,9 +24,6 @@
             <a id="navtext" href="./edu.html">Education</a>
             <br>
         </div>
-        <div id="settings">
-            <button id="buttondeez" onclick="ToggleMode()"><ion-icon name="contrast"></ion-icon></button>
-        </div>
         
     </div>
     <div id="main">
@@ -45,23 +42,13 @@
             <a href="https://github.com/IlhamIbrahimli">
                 <button id="buttondeez"><img src="./static/github-mark.png" alt="" width="32" height="32" id="github-logo"></button>
             </a>
+            <a href="https://ilhamibrahimli.itch.io">
+                <button id="buttondeez"><img src="./static/itch-io.png" alt="" width="32" height="32" id="github-logo"></button>
+            </a>
         
         </div>
     </div>
-    <script>
-        
-        function ToggleMode() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-            if(sessionStorage.getItem("colour") == "l") {
-                document.getElementById("github-logo").src = "./static/github-mark.png";
-                sessionStorage.setItem("colour","d");
-            }else {
-                document.getElementById("github-logo").src = "./static/github-mark-white.png";
-                sessionStorage.setItem("colour","l");
-            }
-        }
-    </script>
+
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 

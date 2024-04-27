@@ -23,9 +23,7 @@
             <a id="navtext" href="./edu.html">Education</a>
             <br>
         </div>
-        <div id="settings">
-            <button id="buttondeez" onclick="ToggleMode()"><ion-icon name="contrast"></ion-icon></button>s
-        </div>
+
     </div>
     <div id="main">
         <div class="container" id="first"><h2 class="nomargin"><img src="./static/python.png" width="32" height="32" id="Img1">Python - 5 years</h2>
@@ -45,29 +43,7 @@
         <div class="container" id="last"><h2 class="nomargin"><img src="./static/html5.png" width="32" height="32" id="Img4">HTML + CSS - 2 years(2017-2019)</h2> <p>
             I do not work much in HTML anymore but the core skills i learnt helped me create this website so I am happy I took the time to learn it. </p></div>
     </div>
-    <script>
-
-        function ToggleMode() {
-            
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-            
-            
-            if(sessionStorage.getItem("colour") == "l") {
-                document.getElementById("Img1").src = "./static/python.png";
-                document.getElementById("Img2").src = "./static/unity.png";
-                document.getElementById("Img3").src = "./static/unreal.png";
-                document.getElementById("Img4").src = "./static/html5.png";
-                sessionStorage.setItem("colour","d");
-            }else {
-                document.getElementById("Img1").src = "./static/python-light.png";
-                document.getElementById("Img2").src = "./static/unity-light.png";
-                document.getElementById("Img3").src = "./static/unreal-light.png";
-                document.getElementById("Img4").src = "./static/html5-light.png";
-                sessionStorage.setItem("colour","l");
-            }
-        }
-    </script>
+    
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 
